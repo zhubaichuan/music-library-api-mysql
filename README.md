@@ -15,7 +15,7 @@ This setup assumes that you are running `MySql` on in Docker.
 This project requires a running MySQL database. To set one up with Docker, run:
 
 ```
-docker run -d -p 3306:3306 --name music_library_mysql -e MYSQL_ROOT_PASSWORD=<PASSWORD> mysql
+docker run -d -p 3307:3307 --name music_library -e MYSQL_ROOT_PASSWORD=password mysql
 ```
 The `create-database` and `drop-database` scripts will run automatically before and after your tests to handle databese setup/teardown/
 
